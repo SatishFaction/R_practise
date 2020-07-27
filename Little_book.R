@@ -1,0 +1,11 @@
+setwd("C:\\Users\\ASUS\\Desktop\\R_Sessions")
+a<-scan("test.txt")
+a
+king<-scan("http://robjhyndman.com/tsdldata/misc/kings.dat",skip=3)
+king
+length(king)
+k<-ts(king)
+k
+birth<-scan("http://robjhyndman.com/tsdldata/data/nybirths.dat")
+birth
+b_ts<-

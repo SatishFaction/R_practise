@@ -1,0 +1,31 @@
+c=c('a','b','c')
+c
+a=c(1,2,3)
+a
+d=c("b",2,"a")
+d
+class(d)
+a[1]
+c[1]
+##lists
+first_list=list("satish","ma",a)
+first_list[[1]]
+first_list[[2]]
+first_list[[3]]
+first_list
+Second=list(a="satish",b="Kumar",ve=c)
+Second$a
+Second$b
+Second$ve
+attributes(Second)
+###Tables
+name=c("Satish","Abhiroop","Satish","Abhijeet")
+table(name)
+tab1=table(name)
+tab1[[1]]
+#Time series
+kings <- scan("http://robjhyndman.com/tsdldata/misc/kings.dat",skip=3)
+kings
+king_ts=ts(kings)
+king_ts
+plot.new(king_ts)
